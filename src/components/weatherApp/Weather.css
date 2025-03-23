@@ -1,0 +1,126 @@
+.MinWeather {
+    margin-top: 40px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+.header {
+    padding: 10px 7px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid #4CAF50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header p {
+    font-size: 22px;
+}
+.img-header img{
+    width: 50px;
+    height: 50px;
+}
+
+.main {
+    margin-block: 20px;
+    padding: 5px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 5px;
+}
+
+form input {
+    width: 300px;
+    padding: 17px 8px;
+    border: 1px solid #ccc;
+    background-color: #ddd;
+}
+
+form input::placeholder{
+    text-transform: uppercase;
+    font-style: italic;
+    color: white;
+    border-radius: 3px;
+}
+
+form button {
+    padding: 17px 5px;
+    width: 120px;
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+table{
+    width: 100%;
+    border-collapse:separate ;
+    margin-top: 20px;
+    }
+
+    table th, table td {
+        border: 0.7px solid #ddd;
+        padding: 12px;
+        text-align: center;
+    }
+
+    table th {
+        background-color: whitesmoke;
+        color: #222;
+        text-transform:capitalize;
+        font-size: 17px;
+        border-bottom: 0.6px solid #4CAF50;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    
+    td.td-head {
+        background-color: whitesmoke;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
+    .condition {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+        gap: 2px;
+    }
+
+    .let {
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        gap: 2px;
+    }
+
+    .err {
+        text-align: right;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(217, 33, 33, 0.29);
+        padding: 7px 4px;
+        margin-top: 20px;
+        border-radius: 3px;
+        color: rgb(154, 9, 9);
+    }
+   
+
+/* HTML: <div class="ribbon">Your text content</div> */
+
